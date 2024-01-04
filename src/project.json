@@ -1,0 +1,1826 @@
+{
+    "targets": [{
+            "isStage": true,
+            "name": "Stage",
+            "variables": {},
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {},
+            "comments": {
+                "}": {
+                    "blockId": null,
+                    "x": 50,
+                    "y": 50,
+                    "width": 521.851806640625,
+                    "height": 180.370361328125,
+                    "minimized": false,
+                    "text": "Configuration for https://turbowarp.org/\nYou can move, resize, and minimize this comment, but don't edit it by hand. This comment can be deleted to remove the stored settings.\n{\"runtimeOptions\":{\"fencing\":false},\"hq\":true} // _twconfig_"
+                }
+            },
+            "currentCostume": 0,
+            "costumes": [{
+                    "name": "backdrop1",
+                    "dataFormat": "svg",
+                    "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+                    "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+                    "rotationCenterX": 240,
+                    "rotationCenterY": 180
+                }
+            ],
+            "sounds": [],
+            "volume": 100,
+            "layerOrder": 0,
+            "tempo": 60,
+            "videoTransparency": 50,
+            "videoState": "on",
+            "textToSpeechLanguage": null
+        }, {
+            "isStage": false,
+            "name": "PTE",
+            "variables": {
+                "xJ#DLs2=F.#6vkd.7W,B": ["y offset", 60],
+                "MyUfZxE9ih8uCu31T.(v": ["x offset", -49],
+                "sE:!RJs8O?pI3dH;e(/7": ["txt i", 33],
+                "|l{KT#SH1sIq]Jm:orqc": ["font char index", "2144"],
+                "w3?#K8+TJ/sNb~d~vtof": ["font i", 2157]
+            },
+            "lists": {
+                "BaURS`^reFjB4Qfsb|#T": ["PTE font 1", ["font: 5x7 printable ASCII", "version: 1", "date: 2023-11-30", "author: awesome-llama", "notes: None", "", "!CHARACTER_LOOKUP:", "104", "111", "128", "147", "178", "209", "246", "277", "290", "307", "324", "349", "368", "381", "394", "405", "418", "447", "462", "485", "522", "539", "566", "595", "610", "655", "684", "699", "716", "731", "750", "765", "790", "825", "850", "881", "906", "929", "952", "973", "1002", "1027", "1052", "1071", "1098", "1113", "1132", "1149", "1176", "1199", "1232", "1261", "1294", "1313", "1334", "1349", "1368", "1387", "1408", "1425", "1442", "1455", "1472", "1487", "1500", "1513", "1538", "1561", "1586", "1609", "1636", "1657", "1686", "1709", "1726", "1745", "1770", "1785", "1814", "1833", "1860", "1883", "1906", "1923", "1948", "1969", "1988", "2003", "2022", "2041", "2068", "2085", "2108", "2121", "2144", "!CHARACTER_DATA:", "char_ ", "xxx", "1", "6", "===", "0", "...", "char_!", "xxx", "1", "16", "===", "2", "---", "1", "0", "6", "0", "2", "---", "0", "0", "0", "...", "char_\"", "xxx", "2", "18", "===", "2", "---", "1", "2", "6", "2", "5", "---", "1", "0", "6", "0", "5", "...", "char_#", "xxx", "4", "30", "===", "4", "---", "1", "0", "4", "4", "4", "---", "1", "4", "2", "0", "2", "---", "1", "3", "6", "3", "0", "---", "1", "1", "0", "1", "6", "...", "char_$", "xxx", "4", "30", "===", "2", "---", "7", "4", "5", "1", "5", "0", "4", "1", "3", "3", "3", "4", "2", "3", "1", "0", "1", "---", "1", "2", "6", "2", "0", "...", "char_%", "xxx", "4", "36", "===", "3", "---", "4", "3", "0", "2", "1", "3", "2", "4", "1", "3", "0", "---", "4", "1", "4", "0", "5", "1", "6", "2", "5", "1", "4", "---", "1", "4", "6", "0", "0", "...", "char_&", "xxx", "4", "30", "===", "1", "---", "10", "4", "0", "0", "4", "0", "5", "1", "6", "2", "5", "2", "4", "0", "2", "0", "1", "1", "0", "2", "0", "4", "2", "...", "char_'", "xxx", "1", "12", "===", "1", "---", "1", "0", "6", "0", "5", "...", "char_(", "xxx", "2", "16", "===", "1", "---", "3", "2", "0", "0", "2", "0", "4", "2", "6", "...", "char_)", "xxx", "2", "16", "===", "1", "---", "3", "0", "6", "2", "4", "2", "2", "0", "0", "...", "char_*", "xxx", "2", "24", "===", "3", "---", "1", "1", "6", "1", "3", "---", "1", "0", "5", "2", "4", "---", "1", "0", "4", "2", "5", "...", "char_+", "xxx", "4", "18", "===", "2", "---", "1", "2", "5", "2", "1", "---", "1", "0", "3", "4", "3", "...", "char_,", "xxx", "1", "12", "===", "1", "---", "1", "1", "1", "0", "0", "...", "char_-", "xxx", "4", "12", "===", "1", "---", "1", "0", "3", "4", "3", "...", "char_.", "xxx", "1", "10", "===", "1", "---", "0", "0", "0", "...", "char_/", "xxx", "4", "12", "===", "1", "---", "1", "4", "6", "0", "0", "...", "char_0", "xxx", "4", "28", "===", "1", "---", "9", "0", "1", "0", "5", "1", "6", "3", "6", "4", "5", "4", "1", "3", "0", "1", "0", "0", "1", "4", "5", "...", "char_1", "xxx", "1", "14", "===", "1", "---", "2", "0", "5", "1", "6", "1", "0", "...", "char_2", "xxx", "4", "22", "===", "1", "---", "6", "0", "5", "1", "6", "3", "6", "4", "5", "4", "4", "0", "0", "4", "0", "...", "char_3", "xxx", "4", "36", "===", "2", "---", "1", "2", "3", "3", "3", "---", "10", "0", "5", "1", "6", "3", "6", "4", "5", "4", "4", "3", "3", "4", "2", "4", "1", "3", "0", "1", "0", "0", "1", "...", "char_4", "xxx", "4", "16", "===", "1", "---", "3", "3", "0", "3", "6", "0", "2", "4", "2", "...", "char_5", "xxx", "4", "26", "===", "1", "---", "8", "4", "6", "0", "6", "0", "4", "3", "4", "4", "3", "4", "1", "3", "0", "1", "0", "0", "1", "...", "char_6", "xxx", "4", "28", "===", "1", "---", "9", "0", "3", "3", "3", "4", "2", "4", "1", "3", "0", "1", "0", "0", "1", "0", "5", "1", "6", "3", "6", "...", "char_7", "xxx", "4", "14", "===", "1", "---", "2", "0", "6", "4", "6", "0", "0", "...", "char_8", "xxx", "4", "44", "===", "2", "---", "1", "1", "3", "3", "3", "---", "14", "0", "1", "0", "2", "1", "3", "0", "4", "0", "5", "1", "6", "3", "6", "4", "5", "4", "4", "3", "3", "4", "2", "4", "1", "3", "0", "1", "0", "0", "1", "...", "char_9", "xxx", "4", "28", "===", "1", "---", "9", "4", "3", "1", "3", "0", "4", "0", "5", "1", "6", "3", "6", "4", "5", "4", "1", "3", "0", "1", "0", "...", "char_:", "xxx", "1", "14", "===", "2", "---", "0", "0", "5", "---", "0", "0", "1", "...", "char_;", "xxx", "1", "16", "===", "2", "---", "1", "1", "1", "0", "0", "---", "0", "1", "5", "...", "char_<", "xxx", "3", "14", "===", "1", "---", "2", "3", "5", "0", "3", "3", "1", "...", "char_=", "xxx", "4", "18", "===", "2", "---", "1", "0", "4", "4", "4", "---", "1", "0", "2", "4", "2", "...", "char_>", "xxx", "3", "14", "===", "1", "---", "2", "0", "5", "3", "3", "0", "1", "...", "char_?", "xxx", "4", "24", "===", "2", "---", "5", "0", "5", "1", "6", "3", "6", "4", "5", "4", "4", "2", "2", "---", "0", "2", "0", "...", "char_@", "xxx", "4", "34", "===", "1", "---", "12", "4", "1", "3", "0", "1", "0", "0", "1", "0", "5", "1", "6", "3", "6", "4", "5", "4", "3", "2", "2", "1", "3", "2", "4", "3", "3", "...", "char_A", "xxx", "4", "24", "===", "2", "---", "1", "0", "3", "4", "3", "---", "4", "0", "0", "0", "3", "2", "6", "4", "3", "4", "0", "...", "char_B", "xxx", "4", "30", "===", "1", "---", "10", "0", "3", "3", "3", "4", "2", "4", "1", "3", "0", "0", "0", "0", "6", "3", "6", "4", "5", "4", "4", "3", "3", "...", "char_C", "xxx", "4", "24", "===", "1", "---", "7", "4", "1", "3", "0", "1", "0", "0", "1", "0", "5", "1", "6", "3", "6", "4", "5", "...", "char_D", "xxx", "4", "22", "===", "1", "---", "6", "0", "0", "0", "6", "2", "6", "4", "4", "4", "2", "2", "0", "0", "0", "...", "char_E", "xxx", "4", "22", "===", "2", "---", "1", "0", "3", "3", "3", "---", "3", "4", "0", "0", "0", "0", "6", "4", "6", "...", "char_F", "xxx", "4", "20", "===", "2", "---", "2", "0", "0", "0", "6", "4", "6", "---", "1", "0", "3", "3", "3", "...", "char_G", "xxx", "4", "28", "===", "1", "---", "9", "2", "3", "4", "3", "4", "1", "3", "0", "1", "0", "0", "1", "0", "5", "1", "6", "3", "6", "4", "5", "...", "char_H", "xxx", "4", "24", "===", "3", "---", "1", "0", "3", "4", "3", "---", "1", "4", "0", "4", "6", "---", "1", "0", "0", "0", "6", "...", "char_I", "xxx", "2", "24", "===", "3", "---", "1", "0", "0", "2", "0", "---", "1", "0", "6", "2", "6", "---", "1", "1", "0", "1", "6", "...", "char_J", "xxx", "4", "18", "===", "1", "---", "4", "4", "6", "4", "1", "3", "0", "1", "0", "0", "1", "...", "char_K", "xxx", "4", "26", "===", "3", "---", "2", "0", "3", "1", "3", "4", "0", "---", "1", "1", "3", "4", "6", "---", "1", "0", "0", "0", "6", "...", "char_L", "xxx", "4", "14", "===", "1", "---", "2", "0", "6", "0", "0", "4", "0", "...", "char_M", "xxx", "4", "18", "===", "1", "---", "4", "0", "0", "0", "6", "2", "3", "4", "6", "4", "0", "...", "char_N", "xxx", "4", "16", "===", "1", "---", "3", "0", "0", "0", "6", "4", "0", "4", "6", "...", "char_O", "xxx", "4", "26", "===", "1", "---", "8", "0", "1", "0", "5", "1", "6", "3", "6", "4", "5", "4", "1", "3", "0", "1", "0", "0", "1", "...", "char_P", "xxx", "4", "22", "===", "1", "---", "6", "0", "0", "0", "6", "3", "6", "4", "5", "4", "4", "3", "3", "0", "3", "...", "char_Q", "xxx", "4", "32", "===", "2", "---", "1", "4", "0", "2", "2", "---", "8", "0", "1", "0", "5", "1", "6", "3", "6", "4", "5", "4", "2", "2", "0", "1", "0", "0", "1", "...", "char_R", "xxx", "4", "28", "===", "2", "---", "1", "1", "3", "4", "0", "---", "6", "0", "0", "0", "6", "3", "6", "4", "5", "4", "4", "3", "3", "0", "3", "...", "char_S", "xxx", "4", "32", "===", "1", "---", "11", "4", "5", "3", "6", "1", "6", "0", "5", "0", "4", "1", "3", "3", "3", "4", "2", "4", "1", "3", "0", "1", "0", "0", "1", "...", "char_T", "xxx", "4", "18", "===", "2", "---", "1", "0", "6", "4", "6", "---", "1", "2", "0", "2", "6", "...", "char_U", "xxx", "4", "20", "===", "1", "---", "5", "0", "6", "0", "1", "1", "0", "3", "0", "4", "1", "4", "6", "...", "char_V", "xxx", "4", "14", "===", "1", "---", "2", "0", "6", "2", "0", "4", "6", "...", "char_W", "xxx", "4", "18", "===", "1", "---", "4", "0", "6", "0", "0", "2", "3", "4", "0", "4", "6", "...", "char_X", "xxx", "4", "18", "===", "2", "---", "1", "0", "0", "4", "6", "---", "1", "0", "6", "4", "0", "...", "char_Y", "xxx", "4", "20", "===", "2", "---", "1", "2", "3", "4", "6", "---", "2", "0", "6", "2", "3", "2", "0", "...", "char_Z", "xxx", "4", "16", "===", "1", "---", "3", "0", "6", "4", "6", "0", "0", "4", "0", "...", "char_[", "xxx", "2", "16", "===", "1", "---", "3", "2", "6", "0", "6", "0", "0", "2", "0", "...", "char_\\", "xxx", "4", "12", "===", "1", "---", "1", "0", "6", "4", "0", "...", "char_]", "xxx", "2", "16", "===", "1", "---", "3", "0", "6", "2", "6", "2", "0", "0", "0", "...", "char_^", "xxx", "2", "14", "===", "1", "---", "2", "0", "4", "1", "6", "2", "4", "...", "char__", "xxx", "4", "12", "===", "1", "---", "1", "0", "0", "4", "0", "...", "char_`", "xxx", "1", "12", "===", "1", "---", "1", "0", "6", "1", "5", "...", "char_a", "xxx", "4", "24", "===", "1", "---", "7", "4", "2", "1", "2", "0", "1", "1", "0", "4", "0", "4", "3", "3", "4", "1", "4", "...", "char_b", "xxx", "4", "22", "===", "1", "---", "6", "0", "6", "0", "0", "3", "0", "4", "1", "4", "3", "3", "4", "0", "4", "...", "char_c", "xxx", "4", "24", "===", "1", "---", "7", "4", "3", "3", "4", "1", "4", "0", "3", "0", "1", "1", "0", "3", "0", "4", "1", "...", "char_d", "xxx", "4", "22", "===", "1", "---", "6", "4", "6", "4", "0", "1", "0", "0", "1", "0", "3", "1", "4", "4", "4", "...", "char_e", "xxx", "4", "26", "===", "1", "---", "8", "3", "0", "1", "0", "0", "1", "0", "3", "1", "4", "3", "4", "4", "3", "3", "2", "0", "2", "...", "char_f", "xxx", "2", "20", "===", "2", "---", "1", "0", "3", "2", "3", "---", "2", "2", "6", "1", "5", "1", "0", "...", "char_g", "xxx", "4", "28", "===", "1", "---", "9", "4", "1", "1", "1", "0", "2", "0", "3", "1", "4", "4", "4", "4", "-1", "3", "-2", "1", "-2", "0", "-1", "...", "char_h", "xxx", "4", "22", "===", "2", "---", "3", "0", "4", "3", "4", "4", "3", "4", "0", "---", "1", "0", "6", "0", "0", "...", "char_i", "xxx", "1", "16", "===", "2", "---", "1", "0", "0", "0", "3", "---", "0", "0", "5", "...", "char_j", "xxx", "1", "18", "===", "2", "---", "2", "1", "3", "1", "-1", "0", "-2", "---", "0", "1", "5", "...", "char_k", "xxx", "3", "24", "===", "3", "---", "1", "0", "2", "3", "4", "---", "1", "3", "0", "1", "2", "---", "1", "0", "6", "0", "0", "...", "char_l", "xxx", "1", "14", "===", "1", "---", "2", "0", "6", "0", "1", "1", "0", "...", "char_m", "xxx", "4", "28", "===", "2", "---", "3", "2", "3", "3", "4", "4", "3", "4", "0", "---", "4", "0", "0", "0", "4", "1", "4", "2", "3", "2", "0", "...", "char_n", "xxx", "4", "18", "===", "1", "---", "4", "0", "0", "0", "4", "3", "4", "4", "3", "4", "0", "...", "char_o", "xxx", "4", "26", "===", "1", "---", "8", "0", "1", "0", "3", "1", "4", "3", "4", "4", "3", "4", "1", "3", "0", "1", "0", "0", "1", "...", "char_p", "xxx", "4", "22", "===", "1", "---", "6", "0", "-2", "0", "4", "3", "4", "4", "3", "4", "2", "3", "1", "0", "1", "...", "char_q", "xxx", "4", "22", "===", "1", "---", "6", "4", "-2", "4", "4", "1", "4", "0", "3", "0", "2", "1", "1", "4", "1", "...", "char_r", "xxx", "3", "16", "===", "1", "---", "3", "0", "0", "0", "3", "1", "4", "3", "4", "...", "char_s", "xxx", "4", "24", "===", "1", "---", "7", "4", "4", "1", "4", "0", "3", "1", "2", "3", "2", "4", "1", "3", "0", "0", "0", "...", "char_t", "xxx", "2", "20", "===", "2", "---", "1", "0", "4", "2", "4", "---", "2", "1", "6", "1", "1", "2", "0", "...", "char_u", "xxx", "4", "18", "===", "1", "---", "4", "0", "4", "0", "1", "1", "0", "4", "0", "4", "4", "...", "char_v", "xxx", "4", "14", "===", "1", "---", "2", "0", "4", "2", "0", "4", "4", "...", "char_w", "xxx", "4", "18", "===", "1", "---", "4", "0", "4", "1", "0", "2", "2", "3", "0", "4", "4", "...", "char_x", "xxx", "4", "18", "===", "2", "---", "1", "0", "0", "4", "4", "---", "1", "0", "4", "4", "0", "...", "char_y", "xxx", "4", "26", "===", "2", "---", "3", "4", "4", "4", "-1", "3", "-2", "0", "-2", "---", "3", "0", "4", "0", "2", "1", "1", "4", "1", "...", "char_z", "xxx", "4", "16", "===", "1", "---", "3", "0", "4", "4", "4", "0", "0", "4", "0", "...", "char_{", "xxx", "2", "22", "===", "2", "---", "1", "1", "3", "0", "3", "---", "3", "2", "6", "1", "5", "1", "1", "2", "0", "...", "char_|", "xxx", "1", "12", "===", "1", "---", "1", "0", "6", "0", "0", "...", "char_}", "xxx", "2", "22", "===", "2", "---", "1", "1", "3", "2", "3", "---", "3", "0", "6", "1", "5", "1", "1", "0", "0", "...", "char_~", "xxx", "4", "16", "===", "1", "---", "3", "0", "3", "1", "4", "3", "2", "4", "3", "...", ""]]
+            },
+            "broadcasts": {},
+            "blocks": {
+                "s": {
+                    "opcode": "procedures_definition",
+                    "next": "f",
+                    "parent": null,
+                    "inputs": {
+                        "custom_block": [1, "a"]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": true,
+                    "x": 540,
+                    "y": -56
+                },
+                "a": {
+                    "opcode": "procedures_prototype",
+                    "next": null,
+                    "parent": "s",
+                    "inputs": {
+                        "?iGqOw{iBqn7d{4bZO(t": [1, "V"],
+                        "n5o`-o[.uf7#w_WWGVjD": [1, "W"],
+                        "m7]4dJG0$7[FeW^o#)5S": [1, "X"],
+                        "Ys$)Q^(tQk$D$@j*d9d(": [1, "Y"]
+                    },
+                    "fields": {},
+                    "shadow": true,
+                    "topLevel": false,
+                    "mutation": {
+                        "tagName": "mutation",
+                        "children": [],
+                        "proccode": "plain text | at %s %s size %s text %s",
+                        "argumentids": "[\"?iGqOw{iBqn7d{4bZO(t\",\"n5o`-o[.uf7#w_WWGVjD\",\"m7]4dJG0$7[FeW^o#)5S\",\"Ys$)Q^(tQk$D$@j*d9d(\"]",
+                        "argumentnames": "[\"x\",\"y\",\"size\",\"text\"]",
+                        "argumentdefaults": "[\"\",\"\",\"\",\"\"]",
+                        "warp": "true"
+                    }
+                },
+                "V": {
+                    "opcode": "argument_reporter_string_number",
+                    "next": null,
+                    "parent": "a",
+                    "inputs": {},
+                    "fields": {
+                        "VALUE": ["x", null]
+                    },
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "W": {
+                    "opcode": "argument_reporter_string_number",
+                    "next": null,
+                    "parent": "a",
+                    "inputs": {},
+                    "fields": {
+                        "VALUE": ["y", null]
+                    },
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "X": {
+                    "opcode": "argument_reporter_string_number",
+                    "next": null,
+                    "parent": "a",
+                    "inputs": {},
+                    "fields": {
+                        "VALUE": ["size", null]
+                    },
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "Y": {
+                    "opcode": "argument_reporter_string_number",
+                    "next": null,
+                    "parent": "a",
+                    "inputs": {},
+                    "fields": {
+                        "VALUE": ["text", null]
+                    },
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "f": {
+                    "opcode": "pen_setPenSizeTo",
+                    "next": "g",
+                    "parent": "s",
+                    "inputs": {
+                        "SIZE": [3, "Z", [4, "1"]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "Z": {
+                    "opcode": "argument_reporter_string_number",
+                    "next": null,
+                    "parent": "f",
+                    "inputs": {},
+                    "fields": {
+                        "VALUE": ["size", null]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "g": {
+                    "opcode": "data_setvariableto",
+                    "next": "h",
+                    "parent": "f",
+                    "inputs": {
+                        "VALUE": [3, "!", [10, "0"]]
+                    },
+                    "fields": {
+                        "VARIABLE": ["x offset", "MyUfZxE9ih8uCu31T.(v"]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "!": {
+                    "opcode": "argument_reporter_string_number",
+                    "next": null,
+                    "parent": "g",
+                    "inputs": {},
+                    "fields": {
+                        "VALUE": ["x", null]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "h": {
+                    "opcode": "data_setvariableto",
+                    "next": "i",
+                    "parent": "g",
+                    "inputs": {
+                        "VALUE": [3, "#", [10, "0"]]
+                    },
+                    "fields": {
+                        "VARIABLE": ["y offset", "xJ#DLs2=F.#6vkd.7W,B"]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "#": {
+                    "opcode": "argument_reporter_string_number",
+                    "next": null,
+                    "parent": "h",
+                    "inputs": {},
+                    "fields": {
+                        "VALUE": ["y", null]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "i": {
+                    "opcode": "control_for_each",
+                    "next": null,
+                    "parent": "h",
+                    "inputs": {
+                        "VALUE": [3, "t", [6, "10"]],
+                        "SUBSTACK": [2, "b"]
+                    },
+                    "fields": {
+                        "VARIABLE": ["txt i", "sE:!RJs8O?pI3dH;e(/7"]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "t": {
+                    "opcode": "operator_length",
+                    "next": null,
+                    "parent": "i",
+                    "inputs": {
+                        "STRING": [3, "%", [10, ""]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "%": {
+                    "opcode": "argument_reporter_string_number",
+                    "next": null,
+                    "parent": "t",
+                    "inputs": {},
+                    "fields": {
+                        "VALUE": ["text", null]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "b": {
+                    "opcode": "looks_switchcostumeto",
+                    "next": "j",
+                    "parent": "i",
+                    "inputs": {
+                        "COSTUME": [3, "u", "("]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "u": {
+                    "opcode": "operator_letter_of",
+                    "next": null,
+                    "parent": "b",
+                    "inputs": {
+                        "LETTER": [3, [12, "txt i", "sE:!RJs8O?pI3dH;e(/7"], [6, "1"]],
+                        "STRING": [3, ")", [10, "A"]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                ")": {
+                    "opcode": "argument_reporter_string_number",
+                    "next": null,
+                    "parent": "u",
+                    "inputs": {},
+                    "fields": {
+                        "VALUE": ["text", null]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "(": {
+                    "opcode": "looks_costume",
+                    "next": null,
+                    "parent": "b",
+                    "inputs": {},
+                    "fields": {
+                        "COSTUME": ["blank", null]
+                    },
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "j": {
+                    "opcode": "data_setvariableto",
+                    "next": "k",
+                    "parent": "b",
+                    "inputs": {
+                        "VALUE": [3, "v", [10, "1"]]
+                    },
+                    "fields": {
+                        "VARIABLE": ["font char index", "|l{KT#SH1sIq]Jm:orqc"]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "v": {
+                    "opcode": "data_itemoflist",
+                    "next": null,
+                    "parent": "j",
+                    "inputs": {
+                        "INDEX": [3, "w", [7, "1"]]
+                    },
+                    "fields": {
+                        "LIST": ["PTE font 1", "BaURS`^reFjB4Qfsb|#T"]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "w": {
+                    "opcode": "operator_add",
+                    "next": null,
+                    "parent": "v",
+                    "inputs": {
+                        "NUM1": [3, "*", [4, ""]],
+                        "NUM2": [1, [4, "5"]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "*": {
+                    "opcode": "looks_costumenumbername",
+                    "next": null,
+                    "parent": "w",
+                    "inputs": {},
+                    "fields": {
+                        "NUMBER_NAME": ["number", null]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "k": {
+                    "opcode": "looks_switchcostumeto",
+                    "next": "l",
+                    "parent": "j",
+                    "inputs": {
+                        "COSTUME": [1, "+"]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "+": {
+                    "opcode": "looks_costume",
+                    "next": null,
+                    "parent": "k",
+                    "inputs": {},
+                    "fields": {
+                        "COSTUME": ["large", null]
+                    },
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "l": {
+                    "opcode": "data_setvariableto",
+                    "next": "c",
+                    "parent": "k",
+                    "inputs": {
+                        "VALUE": [3, ",", [10, "0"]]
+                    },
+                    "fields": {
+                        "VARIABLE": ["font i", "w3?#K8+TJ/sNb~d~vtof"]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                ",": {
+                    "opcode": "operator_add",
+                    "next": null,
+                    "parent": "l",
+                    "inputs": {
+                        "NUM1": [1, [4, "3"]],
+                        "NUM2": [3, [12, "font char index", "|l{KT#SH1sIq]Jm:orqc"], [4, ""]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "c": {
+                    "opcode": "control_repeat",
+                    "next": "x",
+                    "parent": "l",
+                    "inputs": {
+                        "TIMES": [3, "y", [6, ""]],
+                        "SUBSTACK": [2, "z"]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "y": {
+                    "opcode": "data_itemoflist",
+                    "next": null,
+                    "parent": "c",
+                    "inputs": {
+                        "INDEX": [3, "-", [7, "1"]]
+                    },
+                    "fields": {
+                        "LIST": ["PTE font 1", "BaURS`^reFjB4Qfsb|#T"]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "-": {
+                    "opcode": "operator_add",
+                    "next": null,
+                    "parent": "y",
+                    "inputs": {
+                        "NUM1": [1, [4, "5"]],
+                        "NUM2": [3, [12, "font char index", "|l{KT#SH1sIq]Jm:orqc"], [4, ""]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "z": {
+                    "opcode": "data_changevariableby",
+                    "next": "d",
+                    "parent": "c",
+                    "inputs": {
+                        "VALUE": [1, [4, "4"]]
+                    },
+                    "fields": {
+                        "VARIABLE": ["font i", "w3?#K8+TJ/sNb~d~vtof"]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "d": {
+                    "opcode": "motion_gotoxy",
+                    "next": "A",
+                    "parent": "z",
+                    "inputs": {
+                        "X": [3, "B", [4, "0"]],
+                        "Y": [3, "C", [4, "0"]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "B": {
+                    "opcode": "operator_add",
+                    "next": null,
+                    "parent": "d",
+                    "inputs": {
+                        "NUM1": [3, [12, "x offset", "MyUfZxE9ih8uCu31T.(v"], [4, ""]],
+                        "NUM2": [3, "m", [4, ""]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "m": {
+                    "opcode": "operator_multiply",
+                    "next": null,
+                    "parent": "B",
+                    "inputs": {
+                        "NUM1": [3, ".", [4, ""]],
+                        "NUM2": [3, "D", [4, ""]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                ".": {
+                    "opcode": "argument_reporter_string_number",
+                    "next": null,
+                    "parent": "m",
+                    "inputs": {},
+                    "fields": {
+                        "VALUE": ["size", null]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "D": {
+                    "opcode": "data_itemoflist",
+                    "next": null,
+                    "parent": "m",
+                    "inputs": {
+                        "INDEX": [3, "/", [7, "1"]]
+                    },
+                    "fields": {
+                        "LIST": ["PTE font 1", "BaURS`^reFjB4Qfsb|#T"]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "/": {
+                    "opcode": "operator_add",
+                    "next": null,
+                    "parent": "D",
+                    "inputs": {
+                        "NUM1": [3, [12, "font i", "w3?#K8+TJ/sNb~d~vtof"], [4, ""]],
+                        "NUM2": [1, [4, "1"]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "C": {
+                    "opcode": "operator_add",
+                    "next": null,
+                    "parent": "d",
+                    "inputs": {
+                        "NUM1": [3, [12, "y offset", "xJ#DLs2=F.#6vkd.7W,B"], [4, ""]],
+                        "NUM2": [3, "n", [4, ""]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "n": {
+                    "opcode": "operator_multiply",
+                    "next": null,
+                    "parent": "C",
+                    "inputs": {
+                        "NUM1": [3, ":", [4, ""]],
+                        "NUM2": [3, "E", [4, ""]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                ":": {
+                    "opcode": "argument_reporter_string_number",
+                    "next": null,
+                    "parent": "n",
+                    "inputs": {},
+                    "fields": {
+                        "VALUE": ["size", null]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "E": {
+                    "opcode": "data_itemoflist",
+                    "next": null,
+                    "parent": "n",
+                    "inputs": {
+                        "INDEX": [3, ";", [7, "1"]]
+                    },
+                    "fields": {
+                        "LIST": ["PTE font 1", "BaURS`^reFjB4Qfsb|#T"]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                ";": {
+                    "opcode": "operator_add",
+                    "next": null,
+                    "parent": "E",
+                    "inputs": {
+                        "NUM1": [3, [12, "font i", "w3?#K8+TJ/sNb~d~vtof"], [4, ""]],
+                        "NUM2": [1, [4, "2"]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "A": {
+                    "opcode": "pen_penDown",
+                    "next": "e",
+                    "parent": "d",
+                    "inputs": {},
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "e": {
+                    "opcode": "control_repeat",
+                    "next": "=",
+                    "parent": "A",
+                    "inputs": {
+                        "TIMES": [3, "?", [6, "10"]],
+                        "SUBSTACK": [2, "F"]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "?": {
+                    "opcode": "data_itemoflist",
+                    "next": null,
+                    "parent": "e",
+                    "inputs": {
+                        "INDEX": [3, [12, "font i", "w3?#K8+TJ/sNb~d~vtof"], [7, "1"]]
+                    },
+                    "fields": {
+                        "LIST": ["PTE font 1", "BaURS`^reFjB4Qfsb|#T"]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "F": {
+                    "opcode": "data_changevariableby",
+                    "next": "o",
+                    "parent": "e",
+                    "inputs": {
+                        "VALUE": [1, [4, "2"]]
+                    },
+                    "fields": {
+                        "VARIABLE": ["font i", "w3?#K8+TJ/sNb~d~vtof"]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "o": {
+                    "opcode": "motion_gotoxy",
+                    "next": null,
+                    "parent": "F",
+                    "inputs": {
+                        "X": [3, "G", [4, "0"]],
+                        "Y": [3, "H", [4, "0"]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "G": {
+                    "opcode": "operator_add",
+                    "next": null,
+                    "parent": "o",
+                    "inputs": {
+                        "NUM1": [3, [12, "x offset", "MyUfZxE9ih8uCu31T.(v"], [4, ""]],
+                        "NUM2": [3, "p", [4, ""]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "p": {
+                    "opcode": "operator_multiply",
+                    "next": null,
+                    "parent": "G",
+                    "inputs": {
+                        "NUM1": [3, "@", [4, ""]],
+                        "NUM2": [3, "I", [4, ""]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "@": {
+                    "opcode": "argument_reporter_string_number",
+                    "next": null,
+                    "parent": "p",
+                    "inputs": {},
+                    "fields": {
+                        "VALUE": ["size", null]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "I": {
+                    "opcode": "data_itemoflist",
+                    "next": null,
+                    "parent": "p",
+                    "inputs": {
+                        "INDEX": [3, "[", [7, "1"]]
+                    },
+                    "fields": {
+                        "LIST": ["PTE font 1", "BaURS`^reFjB4Qfsb|#T"]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "[": {
+                    "opcode": "operator_add",
+                    "next": null,
+                    "parent": "I",
+                    "inputs": {
+                        "NUM1": [3, [12, "font i", "w3?#K8+TJ/sNb~d~vtof"], [4, ""]],
+                        "NUM2": [1, [4, "1"]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "H": {
+                    "opcode": "operator_add",
+                    "next": null,
+                    "parent": "o",
+                    "inputs": {
+                        "NUM1": [3, [12, "y offset", "xJ#DLs2=F.#6vkd.7W,B"], [4, ""]],
+                        "NUM2": [3, "q", [4, ""]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "q": {
+                    "opcode": "operator_multiply",
+                    "next": null,
+                    "parent": "H",
+                    "inputs": {
+                        "NUM1": [3, "]", [4, ""]],
+                        "NUM2": [3, "J", [4, ""]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "]": {
+                    "opcode": "argument_reporter_string_number",
+                    "next": null,
+                    "parent": "q",
+                    "inputs": {},
+                    "fields": {
+                        "VALUE": ["size", null]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "J": {
+                    "opcode": "data_itemoflist",
+                    "next": null,
+                    "parent": "q",
+                    "inputs": {
+                        "INDEX": [3, "^", [7, "1"]]
+                    },
+                    "fields": {
+                        "LIST": ["PTE font 1", "BaURS`^reFjB4Qfsb|#T"]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "^": {
+                    "opcode": "operator_add",
+                    "next": null,
+                    "parent": "J",
+                    "inputs": {
+                        "NUM1": [3, [12, "font i", "w3?#K8+TJ/sNb~d~vtof"], [4, ""]],
+                        "NUM2": [1, [4, "2"]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "=": {
+                    "opcode": "pen_penUp",
+                    "next": null,
+                    "parent": "e",
+                    "inputs": {},
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "x": {
+                    "opcode": "data_changevariableby",
+                    "next": null,
+                    "parent": "c",
+                    "inputs": {
+                        "VALUE": [3, "r", [4, "10"]]
+                    },
+                    "fields": {
+                        "VARIABLE": ["x offset", "MyUfZxE9ih8uCu31T.(v"]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "r": {
+                    "opcode": "operator_multiply",
+                    "next": null,
+                    "parent": "x",
+                    "inputs": {
+                        "NUM1": [3, "_", [4, ""]],
+                        "NUM2": [3, "K", [4, ""]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "_": {
+                    "opcode": "argument_reporter_string_number",
+                    "next": null,
+                    "parent": "r",
+                    "inputs": {},
+                    "fields": {
+                        "VALUE": ["size", null]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "K": {
+                    "opcode": "operator_add",
+                    "next": null,
+                    "parent": "r",
+                    "inputs": {
+                        "NUM1": [1, [4, "2"]],
+                        "NUM2": [3, "L", [4, "5"]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "L": {
+                    "opcode": "data_itemoflist",
+                    "next": null,
+                    "parent": "K",
+                    "inputs": {
+                        "INDEX": [3, "`", [7, "1"]]
+                    },
+                    "fields": {
+                        "LIST": ["PTE font 1", "BaURS`^reFjB4Qfsb|#T"]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "`": {
+                    "opcode": "operator_add",
+                    "next": null,
+                    "parent": "L",
+                    "inputs": {
+                        "NUM1": [1, [4, "2"]],
+                        "NUM2": [3, [12, "font char index", "|l{KT#SH1sIq]Jm:orqc"], [4, ""]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "{": {
+                    "opcode": "event_whenflagclicked",
+                    "next": "M",
+                    "parent": null,
+                    "inputs": {},
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": true,
+                    "x": -241,
+                    "y": -53
+                },
+                "M": {
+                    "opcode": "pen_clear",
+                    "next": "N",
+                    "parent": "{",
+                    "inputs": {},
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "N": {
+                    "opcode": "pen_setPenColorToColor",
+                    "next": "O",
+                    "parent": "M",
+                    "inputs": {
+                        "COLOR": [1, [9, "#000000"]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "O": {
+                    "opcode": "procedures_call",
+                    "next": "P",
+                    "parent": "N",
+                    "inputs": {
+                        "?iGqOw{iBqn7d{4bZO(t": [1, [10, "-200"]],
+                        "n5o`-o[.uf7#w_WWGVjD": [1, [10, "135"]],
+                        "m7]4dJG0$7[FeW^o#)5S": [1, [10, "2"]],
+                        "Ys$)Q^(tQk$D$@j*d9d(": [1, [10, "Hello, world!"]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false,
+                    "mutation": {
+                        "tagName": "mutation",
+                        "children": [],
+                        "proccode": "plain text | at %s %s size %s text %s",
+                        "argumentids": "[\"?iGqOw{iBqn7d{4bZO(t\",\"n5o`-o[.uf7#w_WWGVjD\",\"m7]4dJG0$7[FeW^o#)5S\",\"Ys$)Q^(tQk$D$@j*d9d(\"]",
+                        "warp": "true"
+                    }
+                },
+                "P": {
+                    "opcode": "procedures_call",
+                    "next": "Q",
+                    "parent": "O",
+                    "inputs": {
+                        "?iGqOw{iBqn7d{4bZO(t": [1, [10, "-200"]],
+                        "n5o`-o[.uf7#w_WWGVjD": [1, [10, "112"]],
+                        "m7]4dJG0$7[FeW^o#)5S": [1, [10, "1"]],
+                        "Ys$)Q^(tQk$D$@j*d9d(": [1, [10, "This is a preview of the PTE."]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false,
+                    "mutation": {
+                        "tagName": "mutation",
+                        "children": [],
+                        "proccode": "plain text | at %s %s size %s text %s",
+                        "argumentids": "[\"?iGqOw{iBqn7d{4bZO(t\",\"n5o`-o[.uf7#w_WWGVjD\",\"m7]4dJG0$7[FeW^o#)5S\",\"Ys$)Q^(tQk$D$@j*d9d(\"]",
+                        "warp": "true"
+                    }
+                },
+                "Q": {
+                    "opcode": "procedures_call",
+                    "next": "R",
+                    "parent": "P",
+                    "inputs": {
+                        "?iGqOw{iBqn7d{4bZO(t": [1, [10, "-200"]],
+                        "n5o`-o[.uf7#w_WWGVjD": [1, [10, "90"]],
+                        "m7]4dJG0$7[FeW^o#)5S": [1, [10, "1"]],
+                        "Ys$)Q^(tQk$D$@j*d9d(": [1, [10, "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false,
+                    "mutation": {
+                        "tagName": "mutation",
+                        "children": [],
+                        "proccode": "plain text | at %s %s size %s text %s",
+                        "argumentids": "[\"?iGqOw{iBqn7d{4bZO(t\",\"n5o`-o[.uf7#w_WWGVjD\",\"m7]4dJG0$7[FeW^o#)5S\",\"Ys$)Q^(tQk$D$@j*d9d(\"]",
+                        "warp": "true"
+                    }
+                },
+                "R": {
+                    "opcode": "procedures_call",
+                    "next": "S",
+                    "parent": "Q",
+                    "inputs": {
+                        "?iGqOw{iBqn7d{4bZO(t": [1, [10, "-200"]],
+                        "n5o`-o[.uf7#w_WWGVjD": [1, [10, "80"]],
+                        "m7]4dJG0$7[FeW^o#)5S": [1, [10, "1"]],
+                        "Ys$)Q^(tQk$D$@j*d9d(": [1, [10, "abcdefghijklmnopqrstuvwxyz"]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false,
+                    "mutation": {
+                        "tagName": "mutation",
+                        "children": [],
+                        "proccode": "plain text | at %s %s size %s text %s",
+                        "argumentids": "[\"?iGqOw{iBqn7d{4bZO(t\",\"n5o`-o[.uf7#w_WWGVjD\",\"m7]4dJG0$7[FeW^o#)5S\",\"Ys$)Q^(tQk$D$@j*d9d(\"]",
+                        "warp": "true"
+                    }
+                },
+                "S": {
+                    "opcode": "procedures_call",
+                    "next": "T",
+                    "parent": "R",
+                    "inputs": {
+                        "?iGqOw{iBqn7d{4bZO(t": [1, [10, "-200"]],
+                        "n5o`-o[.uf7#w_WWGVjD": [1, [10, "70"]],
+                        "m7]4dJG0$7[FeW^o#)5S": [1, [10, "1"]],
+                        "Ys$)Q^(tQk$D$@j*d9d(": [1, [10, "0123456789"]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false,
+                    "mutation": {
+                        "tagName": "mutation",
+                        "children": [],
+                        "proccode": "plain text | at %s %s size %s text %s",
+                        "argumentids": "[\"?iGqOw{iBqn7d{4bZO(t\",\"n5o`-o[.uf7#w_WWGVjD\",\"m7]4dJG0$7[FeW^o#)5S\",\"Ys$)Q^(tQk$D$@j*d9d(\"]",
+                        "warp": "true"
+                    }
+                },
+                "T": {
+                    "opcode": "procedures_call",
+                    "next": "U",
+                    "parent": "S",
+                    "inputs": {
+                        "?iGqOw{iBqn7d{4bZO(t": [1, [10, "-200"]],
+                        "n5o`-o[.uf7#w_WWGVjD": [1, [10, "60"]],
+                        "m7]4dJG0$7[FeW^o#)5S": [1, [10, "1"]],
+                        "Ys$)Q^(tQk$D$@j*d9d(": [1, [10, " !\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"]]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false,
+                    "mutation": {
+                        "tagName": "mutation",
+                        "children": [],
+                        "proccode": "plain text | at %s %s size %s text %s",
+                        "argumentids": "[\"?iGqOw{iBqn7d{4bZO(t\",\"n5o`-o[.uf7#w_WWGVjD\",\"m7]4dJG0$7[FeW^o#)5S\",\"Ys$)Q^(tQk$D$@j*d9d(\"]",
+                        "warp": "true"
+                    }
+                },
+                "U": {
+                    "opcode": "looks_switchcostumeto",
+                    "next": null,
+                    "parent": "T",
+                    "inputs": {
+                        "COSTUME": [1, "|"]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "|": {
+                    "opcode": "looks_costume",
+                    "next": null,
+                    "parent": "U",
+                    "inputs": {},
+                    "fields": {
+                        "COSTUME": ["icon", null]
+                    },
+                    "shadow": true,
+                    "topLevel": false
+                }
+            },
+            "comments": {
+                "~": {
+                    "blockId": null,
+                    "x": -246,
+                    "y": -217,
+                    "width": 334,
+                    "height": 120,
+                    "minimized": false,
+                    "text": "template comment"
+                }
+            },
+            "currentCostume": 0,
+            "costumes": [{
+                    "name": "icon",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "bcc12c24d26096b0d151f6b6a71dcf93",
+                    "md5ext": "bcc12c24d26096b0d151f6b6a71dcf93.svg",
+                    "rotationCenterX": 23.65322557365417,
+                    "rotationCenterY": 21.167730000000006
+                }, {
+                    "name": "",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": " ",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "!",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "\"",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "#",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "$",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "%",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "&",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "'",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "(",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": ")",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "*",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "+",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": ",",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "-",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": ".",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "/",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "0",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "1",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "2",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "3",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "4",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "5",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "6",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "7",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "8",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "9",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": ":",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": ";",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "<",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "=",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": ">",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "?",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "@",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "A",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "B",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "C",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "D",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "E",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "F",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "G",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "H",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "I",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "J",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "K",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "L",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "M",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "N",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "O",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "P",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "Q",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "R",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "S",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "T",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "U",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "V",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "W",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "X",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "Y",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "Z",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "[",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "\\",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "]",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "^",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "_",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "`",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "a",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "b",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "c",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "d",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "e",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "f",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "g",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "h",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "i",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "j",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "k",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "l",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "m",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "n",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "o",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "p",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "q",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "r",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "s",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "t",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "u",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "v",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "w",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "x",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "y",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "z",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "{",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "|",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "}",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }, {
+                    "name": "~",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "3339a2953a3bf62bb80e54ff575dbced",
+                    "md5ext": "3339a2953a3bf62bb80e54ff575dbced.svg",
+                    "rotationCenterX": 0,
+                    "rotationCenterY": 0
+                }
+            ],
+            "sounds": [],
+            "volume": 100,
+            "layerOrder": 1,
+            "visible": false,
+            "x": -51,
+            "y": 63,
+            "size": 100,
+            "direction": 90,
+            "draggable": false,
+            "rotationStyle": "all around"
+        }
+    ],
+    "monitors": [{
+            "id": "BaURS`^reFjB4Qfsb|#T",
+            "mode": "list",
+            "opcode": "data_listcontents",
+            "params": {
+                "LIST": "PTE font 1"
+            },
+            "spriteName": "PTE",
+            "value": [],
+            "width": 146,
+            "height": 342,
+            "x": 320,
+            "y": 7,
+            "visible": false
+        }
+    ],
+    "extensions": ["pen"],
+    "meta": {
+        "semver": "3.0.0",
+        "vm": "0.2.0",
+        "agent": ""
+    }
+}
