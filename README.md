@@ -2,15 +2,12 @@
 
 A tool to generate Pen Text Engines for Scratch.
 
-To use, you must have Rhino 7 installed as well as being able to use Grasshopper (which is included in the software).
-
-https://www.rhino3d.com/
-https://www.grasshopper3d.com/
-
+To use, you must have [Rhino 7](https://www.rhino3d.com/) installed. You will also be using [Grasshopper](https://www.grasshopper3d.com/) which is included in the software.
 
 Grasshopper requires the plugin LunchBox which can be downloaded here:
 https://www.food4rhino.com/en/app/lunchbox
-ChopChop is also used but can be ignored as it has no functional purpose for the end user (it's used for editing the script).
+ChopChop is also used but can be ignored as it has no functional purpose for the end user (it's used for editing the script):
+https://www.food4rhino.com/en/app/chopchop
 
 ## Usage
 Open both `chars.3dm` and `chars.gh`.
