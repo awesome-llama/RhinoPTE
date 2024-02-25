@@ -6,6 +6,7 @@ To use, you must have [Rhino 7](https://www.rhino3d.com/) installed. You will al
 
 Grasshopper requires the plugin LunchBox which can be downloaded here:
 https://www.food4rhino.com/en/app/lunchbox
+
 ChopChop is also used but can be ignored as it has no functional purpose for the end user (it's used for editing the script):
 https://www.food4rhino.com/en/app/chopchop
 
